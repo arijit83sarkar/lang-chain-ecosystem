@@ -7,7 +7,7 @@ from .company import Company
 load_dotenv(override=True)
 
 
-def run() -> None:
+def getCompany() -> None:
     llm = loadChatOpenAI()
     llm_with_structure = llm.with_structured_output(Company)
 

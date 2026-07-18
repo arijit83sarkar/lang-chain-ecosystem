@@ -1,5 +1,5 @@
-from .llm_tool import run
-from .llm_structure import run as run_structure
+from .llm_tool import fetchSharePrice, fetchWeather
+from .llm_structure import getCompany
 from langchain_core.tools import tool
 
 
@@ -36,7 +36,12 @@ def getWeather() -> None:
 
 
 if __name__ == "__main__":
-    # run_structure()
-    # run()
     addNumbers()
+    print("-------")
     getWeather()
+    print("-------")
+    getCompany
+    print("-------")
+    fetchSharePrice()
+    print("-------")
+    fetchWeather()
