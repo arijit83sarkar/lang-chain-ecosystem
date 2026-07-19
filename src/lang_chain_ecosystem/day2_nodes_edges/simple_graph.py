@@ -49,7 +49,7 @@ def runGraph() -> None:
 
     graph = builder.compile()
 
-    save_and_open_graph_image(graph)
+    # save_and_open_graph_image(graph)
 
     result = graph.invoke({"message": [{"role": "user", "content": "say something"}]})
-    print(result["message"][-1].content)
+    print(">>>", result["message"][-1].content)
