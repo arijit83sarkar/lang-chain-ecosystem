@@ -3,6 +3,6 @@ from typing_extensions import TypedDict
 from langgraph.graph.message import add_messages
 
 
-class State(TypedDict):
+class TranslatorState(TypedDict):
     messages: Annotated[list, add_messages]
     spanish: str
