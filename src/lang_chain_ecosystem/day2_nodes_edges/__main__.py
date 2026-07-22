@@ -4,6 +4,9 @@ from .llm_translator_graph import sendNotifications, callTranslator, callMemory
 
 # from .llm_graph_memory import callMemory
 from .linear_graph import callLinearGraph, callConditionalEdges
+from .cycle_edges import callCycleEdges
+from .reducer_graph import callReducer
+from .grade_graph import callGradeGraph
 
 if __name__ == "__main__":
     # runGraph()
@@ -11,5 +14,8 @@ if __name__ == "__main__":
     # sendNotifications()
     # callTranslator()
     # callMemory()
-    callLinearGraph()
-    callConditionalEdges()
+    # callLinearGraph()
+    # callConditionalEdges()
+    # callCycleEdges()
+    # callReducer()
+    callGradeGraph()

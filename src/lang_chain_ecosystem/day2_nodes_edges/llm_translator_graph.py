@@ -53,7 +53,7 @@ def sendNotifications() -> None:
     #         "messages": [
     #             {
     #                 "role": "user",
-    #                 "content": "Use your search tool to give me a list of websites, from India, from where I can find price of Black Pepper "
+    #                 "content": "Use your search tool to give me a list of websites, from India, from where I can find wholesale price of Rice Bran Oil "
     #                 "and send me a push notification.",
     #             }
     #         ]
