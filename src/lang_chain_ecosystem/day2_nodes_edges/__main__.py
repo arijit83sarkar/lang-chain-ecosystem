@@ -11,7 +11,8 @@
 # from .exercises.text_normalizer_graph import callTextNormalizerGraph
 # from .exercises.temparature_graph import callTemparatureGraph
 # from .exercises.rps_graph import callRPSGraph
-from .exercises.triangle_graph import callTriangleGraph
+# from .exercises.triangle_graph import callTriangleGraph
+from .exercises.password_graph import callPasswordGraph
 
 if __name__ == "__main__":
     # runGraph()
@@ -28,4 +29,5 @@ if __name__ == "__main__":
     # callTextNormalizerGraph()
     # callTemparatureGraph()
     # callRPSGraph()
-    callTriangleGraph()
+    # callTriangleGraph()
+    callPasswordGraph()
